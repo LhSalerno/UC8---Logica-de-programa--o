@@ -1,0 +1,17 @@
+/*Atividade Presencial 2-Codificação de um sistema de contagem e classificação.(16/09/2021)*/
+
+var alunos
+var classe = 25
+
+for ( var alunos =0; alunos <= classe; alunos++){
+
+    if(alunos %2 ==0){
+        if(alunos ==0){
+            console.log(" O numero " + alunos + " É Zero ");
+        }else{
+            console.log(" O numero " + alunos + " É Par ");
+        }
+    }else{
+        console.log(" O numero " + alunos + " É Impar ")
+    }
+}
